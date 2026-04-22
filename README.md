@@ -1,11 +1,11 @@
-# 🧪 Python API Testing Framework (Pytest + HTML Report)
+# 🤖 Python API Testing Framework (Pytest + HTML Report)
 
 A lightweight and scalable **API automation testing framework** built using Python, Pytest, and Requests.  
 It validates REST APIs and generates a detailed **HTML test execution report** using `pytest-html`.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
 - ✅ API testing using Pytest  
 - 🌐 REST API validation using Requests  
@@ -27,6 +27,7 @@ It validates REST APIs and generates a detailed **HTML test execution report** u
 
 ## 📂 Project Structure
 
+```
 python_api_tsting/
 │── config/
 │   └── dev.json
@@ -48,40 +49,54 @@ python_api_tsting/
 │── pytest.ini
 │── README.md
 │── requirements.txt
+```
 
 ---
 
 ## ⚙️ Setup Instructions
 
 ### Clone Repository
+```Terminal
 git clone https://github.com/DilendraBarman/python_api_testing.git  
 cd python_api_testing  
+```
 
 ---
 
 ### Create Virtual Environment
+
+```Terminal
 python -m venv venv  
-
+```
 Mac/Linux:
+```Terminal
 source venv/bin/activate  
-
+```
 Windows:
+```Terminal
 venv\Scripts\activate  
+```
 
 ---
 
 ### Install Dependencies
-pip install -r requirements.txt  
 
+```Terminal
+pip install -r requirements.txt  
+```
 ---
 
 ## ▶️ Running Tests
 
 Run all tests:
+```Terminal
 pytest  
+```
 
 Run with HTML report:
+```Terminal
 pytest --html=report.html --self-contained-html  
+```
 
 ---
 
@@ -102,17 +117,21 @@ Summary:
 ## 📌 Sample Test Cases
 
 ### GET Users API
+```Terminal
 def test_get_users():
     response = requests.get("https://api.example.com/users")
     assert response.status_code == 200  
+```
 
 ---
 
 ### CREATE User API
+```Terminal
 def test_create_user():
     payload = {"name": "John"}
     response = requests.post("https://api.example.com/users", json=payload)
     assert response.status_code == 201  
+```
 
 ---
 
