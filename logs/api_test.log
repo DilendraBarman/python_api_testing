@@ -1,0 +1,8 @@
+INFO     APIClient:api_client.py:20 GET https://jsonplaceholder.typicode.com/posts - Status: 200
+INFO     APITests:test_posts.py:20 GET /posts passed
+INFO     APIClient:api_client.py:20 GET https://jsonplaceholder.typicode.com/users - Status: 200
+INFO     APITests:test_users.py:21 GET /users passed
+INFO     APIClient:api_client.py:20 POST https://jsonplaceholder.typicode.com/users - Status: 201
+INFO     APITests:test_users.py:28 Created user: John Doe
+INFO     APIClient:api_client.py:20 POST https://jsonplaceholder.typicode.com/users - Status: 201
+INFO     APITests:test_users.py:28 Created user: Jane Doe

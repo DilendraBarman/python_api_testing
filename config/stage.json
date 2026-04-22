@@ -1,0 +1,12 @@
+{
+  "base_url": "https://jsonplaceholder.typicode.com",
+  "timeout": 5,
+  "max_retries": 3,
+  "retry_delay": 2,
+  "default_headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "auth_url": "",
+  "auth_payload": {}
+}
