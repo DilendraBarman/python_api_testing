@@ -28,7 +28,7 @@ It validates REST APIs and generates a detailed **HTML test execution report** u
 ## 📂 Project Structure
 
 ```
-python_api_tsting/
+python_api_testing/
 │── config/
 │   └── dev.json
 │   └── stage.json
